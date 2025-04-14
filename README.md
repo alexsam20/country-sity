@@ -42,5 +42,9 @@ Laravel Installer 5.14.1
 Add folders  migrations and seeder to Laravel project to folder database
 The Models folder contains all dependencies to the table (Relationship).
 
+```shell
+php artisan migrate --seed
+```
+
 The Repository name (Sity) deliberately contains a misspelling of the word City
 
